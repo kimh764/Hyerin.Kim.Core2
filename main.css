@@ -1,12 +1,18 @@
 li {
-    font-family: 'Quicksand', sans-serif;;
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+
 }
 
 body {
-    background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+    background-color: #E4E4E1;
+    background-image: radial-gradient(at top center, rgba(255,255,255,0.03) 0%, rgba(0,0,0,0.03) 100%), linear-gradient(to top, rgba(255,255,255,0.1) 0%, rgba(143,152,157,0.60) 100%);
+ 	background-blend-mode: normal, multiply;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 100%;
     margin: 0; 
 }
+
+
